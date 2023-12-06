@@ -1,4 +1,4 @@
-from frequencyCounter import palindrome_permutation
+from frequency_counter import palindrome_permutation
 
 def test_palindrome_permutation():
     assert palindrome_permutation('aab') == True, "Error on test case 1"

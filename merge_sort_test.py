@@ -1,4 +1,4 @@
-from mergeSort import merge_sort
+from merge_sort import merge_sort
 def test_merge_sort():
     assert merge_sort([]) == [], "Error on test case 1"
     assert merge_sort([1]) == [1], "Error on test case 2"
